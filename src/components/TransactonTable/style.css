@@ -1,0 +1,31 @@
+.input-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    box-shadow: 0px 0px 30px 8px var(--shadow-color);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+
+.input-flex input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+}
+.input-flex input:focus{
+    outline: none;
+}
+.select-input{
+    display: flex;
+    width: 30%;
+    box-shadow: 0px 0px 30px 8px var(--shadow-color);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+    border: 0;
+    outline: none;
+}
+.select-input>div{
+    border: 0px solid #fff!important;
+}
